@@ -26,8 +26,8 @@ To run these examples, you'll need to have Python and the `scikit-learn` library
 
 1.  **Clone this repository (optional):**
     ```bash
-    git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
-    cd your-repository-name
+    https://github.com/LeonMotaung/AI-Engineer.git
+    cd AI-Engineer
     ```
 
 2.  **Install the required packages:**
