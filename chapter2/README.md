@@ -1,44 +1,48 @@
-# 📊 Python Data Preprocessing Techniques
+# 📊 Python Data Preprocessing & Classification Techniques
 
-This repository contains a collection of Python scripts demonstrating common data preprocessing techniques using the `scikit-learn` (sklearn) library. Preprocessing is a crucial step in any machine learning pipeline, ensuring data is in a suitable format for algorithms to learn from effectively.
+This repository demonstrates **data preprocessing techniques** and **basic classifiers** using `scikit-learn`. It includes examples with **visualizations** to help you understand how classifiers separate different classes.
+
+---
 
 ## 🛠️ Techniques Covered
 
-This project provides simple, standalone examples for the following methods:
+### Data Preprocessing
 
-* **Mean Removal (Standardization):** Centering data by removing the mean, resulting in a distribution with a mean of 0 and a standard deviation of 1.
-* **Scaling (Min-Max Scaling):** Rescaling features to a specific range (e.g., 0 to 1) to create a level playing field for all features.
-* **Normalization (L1/L2):** Scaling individual samples (rows) to have a unit norm. This is useful when the magnitude of the sample matters less than its direction.
-* **Binarization:** Converting numerical data into boolean values (0 or 1) based on a specific threshold.
-* **Label Encoding:** Converting categorical (text) labels into a numerical form that machine learning algorithms can understand.
+- **Mean Removal (Standardization):** Centering data so that the mean is 0 and standard deviation is 1.  
+- **Scaling (Min-Max Scaling):** Rescales features to a fixed range (0 to 1).  
+- **Normalization (L1/L2):** Scales rows to have unit norm.  
+- **Binarization:** Converts numeric data into 0/1 using a threshold.  
+- **Label Encoding:** Converts categorical labels into numeric form.
+
+### Classification
+
+- **Naïve Bayes Classifier:**  
+  Uses Bayes theorem and assumes features are independent.  
+  Example decision boundary:
+
+  ![Naïve Bayes Classifier](images/naive.png)
+
+- **Logistic Regression Classifier:**  
+  Predicts class probabilities using a logistic function.  
+  Example decision boundary:
+
+  ![Logistic Regression Classifier](images/logistic.png)
+
+---
 
 ## 🚀 Getting Started
 
-To run these examples, you'll need to have Python and the `scikit-learn` library installed.
-
 ### Prerequisites
 
-* Python 3.x
-* NumPy
-* scikit-learn
+- Python 3.x  
+- NumPy  
+- scikit-learn  
+- Matplotlib (for visualizations)
 
 ### Installation
 
-1.  **Clone this repository (optional):**
-    ```bash
-    https://github.com/LeonMotaung/AI-Engineer.git
-    cd AI-Engineer
-    ```
-
-2.  **Install the required packages:**
-    If you don't have the libraries, you can install them via pip:
-    ```bash
-    pip install numpy scikit-learn
-    ```
-
-## 🏃‍♂️ Usage
-
-All examples are contained in a single Python file (e.g., `preprocessing_demo.py`). You can run the file directly to see the printed output for each technique.
+1. Clone the repository (optional):
 
 ```bash
-python preprocessing_demo.py
+git clone https://github.com/LeonMotaung/AI-Engineer.git
+cd AI-Engineer
