@@ -46,3 +46,12 @@ This repository demonstrates **data preprocessing techniques** and **basic class
 ```bash
 git clone https://github.com/LeonMotaung/AI-Engineer.git
 cd AI-Engineer
+2. Install required packages:
+
+```bash
+pip install -r requirements.txt
+
+- **Confusion Matrix:**
+  Visualizes the performance of a classification model.
+
+  ![Confusion Matrix](confusion.png)
