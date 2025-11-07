@@ -20,13 +20,13 @@ This repository demonstrates **data preprocessing techniques** and **basic class
   Uses Bayes theorem and assumes features are independent.  
   Example decision boundary:
 
-  ![Naïve Bayes Classifier](images/naive.png)
+  ![Naïve Bayes Classifier](naive.png)
 
 - **Logistic Regression Classifier:**  
   Predicts class probabilities using a logistic function.  
   Example decision boundary:
 
-  ![Logistic Regression Classifier](images/logistic.png)
+  ![Logistic Regression Classifier](logistic.png)
 
 ---
 
